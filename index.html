@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<html>
+
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Porfolio PiiMol </title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel = "stylesheet" href="estilos.css">
+    <script src="slider.js"></script>
+   
+    </head>
+  
+<body>
+ <main> 
+    <div class="contenedor-principal">
+        <header>
+            <div class="logo">
+                <a href="#">PiiMol</a>
+            </div>
+            <nav id="nav">
+                <ul class="menu-acostado">
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#pres" onclick="seleccionar()">PRESENTACIÓN</a></li>
+                    <li><a href="#video-editing" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">GALERIA</a></li>
+                    <li><a href="#conocimientos" onclick="seleccionar()">CONOCIMIENTOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                   
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/yo.jpg" alt="">
+            </div>
+            <h1>Pilar D. Molnar</h1>
+            <h2>Técnica en Artes Multimediales</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/pii.mol/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/1162100834" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+                <a class="custom-link" href="https://www.linkedin.com/in/pilar-delfina-molnar-870646196/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="pres" class="pres">
+        <div class="contenido-seccion">
+            <h2>Presentación</h2>
+            <p>¡Hola!, soy <span>Pilar D. Molnar</span> y a continuación hay una representación de todo 
+                lo que he aprendido y logrado como estudiante en la Licenciatura en Artes Multimediales 
+                de la Universidad Nacional de las Artes. Durante mi formación, he desarrollado habilidades 
+                en diversas disciplinas artísticas, incluyendo <span>diseño gráfico, fotografía, videoarte, 
+                animación y producción multimedia</span>. Cada proyecto en mi portafolio refleja mi pasión por 
+                la creatividad y la innovación, así como mi compromiso con la excelencia y la calidad. 
+                He trabajado en proyectos colaborativos y personales que me han permitido explorar 
+                diferentes medios y técnicas, y siempre busco nuevas oportunidades para crecer y 
+                aprender en el campo de las artes multimediales. Estoy emocionada de compartir mi 
+                trabajo y de continuar mi desarrollo profesional en este apasionante campo.</p>
+
+            <div class="fila">
+               
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <article> 
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            26 de Abril de 2004
+                        </li>
+                        
+                        <li>
+                            <strong>Email</strong>
+                           Pilardmolnar@gmail.com
+                        </li>
+                        
+                        <li>
+                            <strong>Dirección</strong>
+                            Avellaneda, Argentina
+                        </li>
+                        <li>
+                            <strong>Estudios</strong>
+                            <span>TECNICATURA COMPLETA</span>
+                        </li>
+                        <li>
+                            <strong>Actualmente cursando</strong>
+                            <span>Licenciatura en Artes Multimediales - UNA</span>
+                        </li>
+                    </ul>
+                </article>
+                    </div>
+                    <aside class="AM">
+                        <h4>Link a </h4>
+                        <a href="https://multimedia.una.edu.ar/" target="_blank" class="AMM">   Artes Multimediales - UNA</a>
+                    </aside>
+                    </div>
+            </div>
+
+        
+
+               
+
+                
+              
+            <button>
+                  <a href="img/cv_molnar.pdf" download target="_blank" class="AMM">Descargar CV</a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <section id="video-editing" class="video-editing">
+        <div class="content">
+            <h2>Portfolio</h2>
+            <div class="videos">
+                <div class="video-container">
+                    <div class="background-square"></div>
+                    <video controls>
+                        <source src="img/Publicidad_Monster.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de video.
+                    </video>
+                </div>
+                <div class="video-container">
+                    <div class="background-square"></div>
+                    <video controls>
+                        <source src="img/Publicidad.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="portfolio" class="portfolio">
+        <a href="mat-AM.html"></a><h2><span> GALERIA</span></h2>
+        
+        <div class="slideshow-container">
+            <!-- Imágenes de la galería -->
+            <div class="mySlides">
+                <a href="mat-AM.html">
+                    <img src="img/p1.jpg" style="width:100%">
+                </a>
+            </div>
+            
+            <div class="mySlides fade">
+                <a href="mat-IG.html">
+                    <img src="img/p2.jpg" style="width:100%;">
+                </a>
+            </div>
+            
+            <div class="mySlides fade">
+                <a href="mat-PV.html">
+                    <img src="img/p3.png" style="width:100%">
+                </a>
+            </div>
+            
+            <div class="mySlides fade">
+                <a href="mat-AM.html">
+                    <img src="img/p4.jpg" style="width:100%">
+                </a>
+            </div>
+            
+            <div class="mySlides fade">
+                <a href="mat-HS.html">
+                    <img src="img/p5.png" style="width:100%">
+                </a>
+            </div>
+            
+            <div class="mySlides fade">
+                <a href="mat-PV.html">
+                    <img src="img/p6.png" style="width:100%">
+                </a>
+            </div>
+            
+            <div class="mySlides fade">
+                <a href="mat-IA.html">
+                    <img src="img/p7.png" style="width:100%">
+                </a>
+            </div>
+            
+            <div class="mySlides fade">
+                <a href="mat-AM2.html">
+                    <img src="img/p8.png" style="width:100%">
+                </a>
+            </div>
+            
+            <!-- Flechas de navegación -->
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        
+        <br>
+        
+        
+        <!-- Puntos de navegación -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
+    </section>
+    
+    
+
+  <section id="conocimientos" class="conocimientos"> 
+    <div class="skill-container">
+        <h2><span> CONOCIMIENTOS</span></h2>
+        <div class="skill">
+            <div class="skill">
+                <div class="skill-name">Gestión de proyectos</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;">100%</div>
+                </div>
+            </div>
+        <div class="skill">
+            <div class="skill">
+                <div class="skill-name">Adobe Photoshop</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;">100%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Canva</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;">100%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Adobe After effects</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;">95%</div>
+                </div>
+            </div>
+           
+            <div class="skill">
+                <div class="skill-name">Adobe Premiere Pro </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;">85%</div>
+                </div>
+            </div>
+          
+            <div class="skill-name">Javascript</div>
+            <div class="progress-bar">
+                <div class="progress" style="width: 75%;">75%</div>
+            </div>
+        </div>
+        
+      
+        <div class="skill">
+            <div class="skill-name">Adobe Illustrator</div>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;">70%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">PHP - MySql</div>
+            <div class="progress-bar">
+                <div class="progress" style="width: 50%;">50%</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="col">
+            <div class="image-container">
+                <img src="img/ubicacion.png" alt="">
+                <div class="info">
+                    <ul>
+                        <li>Mail: Pilardmolnar@gmail.com</li>
+                        <li><a class="custom-link" href="https://www.linkedin.com/in/pilar-delfina-molnar-870646196/" target="_blank">Linkedin: Pilar Molnar</a></li>
+                        <li><a class="custom-link" href="https://www.instagram.com/pii.mol/" target="_blank">Ig: Pii.mol</a></li>
+                        <li>Villa Dominico, Avellaneda, Buenos Aires.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/pii.mol/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/1162100834" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+            <a class="custom-link" href="https://www.linkedin.com/in/pilar-delfina-molnar-870646196/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</main>
+</body>
+</html>

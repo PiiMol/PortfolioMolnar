@@ -1,0 +1,10 @@
+    <form action="enviar_formulario.php" method="POST">
+                        <input type="text" name="nombre" placeholder="Nombre">
+                        <input type="email" name="correo" placeholder="Tu dirección de correo">
+                        <input type="text" name="tema" placeholder="Tema">
+                        <textarea name="mensaje" id="" cols="20" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit">
+                            Enviar Mensaje
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
